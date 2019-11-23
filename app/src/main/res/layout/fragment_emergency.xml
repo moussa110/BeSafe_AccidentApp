@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".EmergencyFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/asphalt"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/back"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swiper"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                >
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/emerRecycle"
+                    android:layout_width="match_parent"
+                    android:layout_height="430dp"
+                    android:layout_alignParentTop="true"
+                    ></android.support.v7.widget.RecyclerView>
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pho"
+            />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnAddnCon"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:background="@color/asphalt"
+        android:gravity="center"
+        android:text="اضافة جهة اتصال"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        />
+</RelativeLayout>

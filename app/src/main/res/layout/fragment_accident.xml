@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccidentFragment"
+    android:background="@color/back">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     android:background="@color/asphalt">
+
+ </LinearLayout>
+
+
+
+  <TextView
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/linea"
+      android:gravity="center"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="20dp"
+      android:fontFamily="casual"
+      android:text="للحصول علي اعلي دقة استخدم مثل هذا الحامل في سيارتك"
+      android:textColor="@color/asphalt"
+      android:textSize="22sp" />
+
+  <LinearLayout
+      android:id="@+id/linea"
+      android:layout_width="310dp"
+      android:layout_height="240dp"
+      android:layout_centerInParent="true"
+      android:background="@drawable/shapebutton"
+      android:gravity="center">
+
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="230dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/phonecar" />
+  </LinearLayout>
+
+
+ </RelativeLayout>
+

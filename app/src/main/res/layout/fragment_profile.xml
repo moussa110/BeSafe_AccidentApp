@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/asphalt"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@color/back"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:text="الاسم"
+                android:textColor="@color/reddark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtPName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Mahmoud"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/asphalt"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:text="رقم الهاتف"
+                android:textColor="@color/reddark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtPPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="01019846646"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/asphalt"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:text="العنوان"
+                android:textColor="@color/reddark"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/txtPAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Tanta"
+                android:textColor="@color/asphalt"
+                android:textSize="18sp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:text="البريد الالكتروني"
+                android:textColor="@color/reddark"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/txtPemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="moussam760@gmail.com"
+                android:textColor="@color/asphalt"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/man" />
+
+    </RelativeLayout>
+
+</FrameLayout>

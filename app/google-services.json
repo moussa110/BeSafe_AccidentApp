@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "816125012976",
+    "firebase_url": "https://besafe-d78ba.firebaseio.com",
+    "project_id": "besafe-d78ba",
+    "storage_bucket": "besafe-d78ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816125012976:android:6b0c8e50d0f7a72f",
+        "android_client_info": {
+          "package_name": "com.example.besafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaz0t_HM89lQrG_At_wthOhQ7EYlUga_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816125012976-8n9bs6i6cm741mjbg8cho9augnchudo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
